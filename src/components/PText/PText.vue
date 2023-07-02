@@ -17,7 +17,7 @@ const extraProps = {
   },
   ...isEditingProp
 }
-const defaultProps = transformToComponentProps(componentsDefaultProps['l-text'].props, extraProps)
+const defaultProps = transformToComponentProps(componentsDefaultProps['p-text'].props, extraProps)
 
 // array that contains style props
 export default defineComponent({

@@ -1,7 +1,7 @@
 
 <template>
   666
-  <!-- <final-page :components="testData.components" :page="testData.page"></final-page> -->
+  <final-page :components="testData.components" :page="testData.page"></final-page>
 </template>
 
 <script lang="ts">
@@ -10,14 +10,14 @@ import { defineComponent } from 'vue'
 // import LText from './components/LText/LText.vue'
 // import LImage from './components/LImage/LImage.vue'
 // import LShape from './components/LShape/LShape.vue'
-// import FinalPage from './components/FinalPage/FinalPage.vue'
+import FinalPage from './components/FinalPage/FinalPage.vue'
 export default defineComponent({
   name: 'App',
   components: {
     // LText,
     // LImage,
     // LShape,
-    // FinalPage
+    FinalPage
   },
   setup () {
     const testData = {
@@ -28,7 +28,7 @@ export default defineComponent({
         {id: '234', name: 'l-image', props: { imageSrc: 'http://vue-maker.oss-cn-hangzhou.aliyuncs.com/vue-marker/5f6338e666336111f73d220c.png', top: '30px', left: '20px'}},
         {id: '235', name: 'l-shape', props: { backgroundColor: 'red', top: '50px', left: '20px', width: '100px', height: '100px'}},
         // 这是一个链接
-        {id: '345', name: 'l-text', props: { backgroundColor: "#1890ff", color: "#ffffff", text: "按钮内容",  width: "100px", actionType: "to", url: "http://www.baidu.com", top: '200px', left: '150px',
+        {id: '345', name: 'l-text', props: { backgroundColor: "#1890ff", color: "#ffffff", text: "按钮内容",  width: "150px",height: "30px", actionType: "to", url: "http://www.baidu.com", top: '200px', left: '150px',
         }}
       ]
     }

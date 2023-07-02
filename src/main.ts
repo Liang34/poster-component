@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-// import Lego from './index'
+import PosterComponents from './index'
 import App from './App.vue'
 const app = createApp(App)
-// app.use(Lego)
+app.use(PosterComponents)
 app.mount('#app')
