@@ -9,8 +9,29 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.0.0-0"
+  },
   "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/jest": "^29.5.2",
+    "@types/lodash-es": "^4.17.7",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.44.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "husky": "^8.0.3",
+    "rollup": "^3.26.0",
+    "rollup-plugin-css-only": "^4.3.0",
+    "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.23",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^5.1.6",
     "vue": "^3.3.4",
-    "vue-cli": "^2.9.6"
+    "vue-cli": "^2.9.6",
+    "vue-jest": "^3.0.7"
   }
 }
