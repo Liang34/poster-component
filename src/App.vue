@@ -1,22 +1,23 @@
 
 <template>
-  <final-page :components="testData.components" :page="testData.page"></final-page>
+  666
+  <!-- <final-page :components="testData.components" :page="testData.page"></final-page> -->
 </template>
 
 <script lang="ts">
 /* eslint-disable vue/no-unused-components */
 import { defineComponent } from 'vue'
-import LText from './components/LText/LText.vue'
-import LImage from './components/LImage/LImage.vue'
-import LShape from './components/LShape/LShape.vue'
-import FinalPage from './components/FinalPage/FinalPage.vue'
+// import LText from './components/LText/LText.vue'
+// import LImage from './components/LImage/LImage.vue'
+// import LShape from './components/LShape/LShape.vue'
+// import FinalPage from './components/FinalPage/FinalPage.vue'
 export default defineComponent({
   name: 'App',
   components: {
-    LText,
-    LImage,
-    LShape,
-    FinalPage
+    // LText,
+    // LImage,
+    // LShape,
+    // FinalPage
   },
   setup () {
     const testData = {
