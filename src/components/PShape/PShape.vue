@@ -1,5 +1,5 @@
 <template>
-  <div @click.prevent="handleClick" :style="styleProps" class="l-shape-component" :draggable="false">
+  <div @click.prevent="handleClick" :style="styleProps" class="p-shape-component" :draggable="false">
   </div>
 </template>
 <script lang="ts">

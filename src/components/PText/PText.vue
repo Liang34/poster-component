@@ -1,5 +1,5 @@
 <template>
-<component :is="tag" @click.prevent="handleClick" :style="styleProps" class="l-text-component">
+<component :is="tag" @click.prevent="handleClick" :style="styleProps" class="p-text-component">
   {{text}}
 </component>
 </template>
@@ -37,14 +37,14 @@ export default defineComponent({
 </script>
 
 <style scoped>
-h2.l-text-component, p.l-text-component {
+h2.p-text-component, p.p-text-component {
   margin-bottom: 0;
 }
-button.l-text-component {
+button.p-text-component {
   padding: 5px 10px;
   cursor: pointer;
 }
-.l-text-component {
+.p-text-component {
   box-sizing: border-box;
   white-space: pre-wrap;
 }
