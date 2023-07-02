@@ -1,12 +1,11 @@
 import PText from './components/PText'
 import PImage from './components/PImage'
-// import LShape from './components/LShape'
-// import FinalPage from './components/FinalPage'
+import PShape from './components/PShape'
+
 const components = [ 
   PText,
   PImage,
-  // LShape,
-  // FinalPage
+  PShape,
 ]
 
 const install = (app: any) => { 
@@ -19,8 +18,7 @@ export {
   install,
   PText,
   PImage,
-  // LShape,
-  // FinalPage
+  PShape,
 }
 
 export default {

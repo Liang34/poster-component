@@ -6,9 +6,6 @@
 <script lang="ts">
 
 import { defineComponent } from 'vue'
-// import LText from './components/LText/LText.vue'
-// import LImage from './components/LImage/LImage.vue'
-// import LShape from './components/LShape/LShape.vue'
 import FinalPage from './components/FinalPage/FinalPage.vue'
 export default defineComponent({
   name: 'App',
