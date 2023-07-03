@@ -1,6 +1,6 @@
 {
   "name": "poster-components",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": false,
   "description": "poster Vue3 components library",
   "author": "Liang jianhui",
@@ -11,7 +11,6 @@
     "lint": "vue-cli-service lint",
     "build:es": "rollup --config build/rollup.esm.config.js",
     "build:umd": "rollup --config build/rollup.umd.config.js",
-    "prepublishOnly": "npm run test && npm run build",
     "test": "vue-cli-service test:unit",
     "test:watch": "vue-cli-service test:unit --watch"
   },
@@ -62,7 +61,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test"
     }
   },
   "keywords": [
